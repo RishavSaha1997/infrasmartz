@@ -27,11 +27,13 @@ header{
 }
 .nav-link li a{
     color: black;
+    font-size: 20px;
+    padding: 0 30px;
     text-decoration: none;
-    transition: all 0.3s ease 0s;
+    transition: all 0.3s ease;
 }
 .nav-link li a:hover{
-    color: #0088a9;
+    color: #6654E8;
 }
 .address i{
     color: #6654E8;
