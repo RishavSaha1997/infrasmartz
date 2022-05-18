@@ -203,6 +203,13 @@
         font-size: 100px;
     } */
 
+    .banner {
+        width: 100%;
+        height: 60vh;
+    }
+    .banner-text p {
+        font-size: 130px;
+    }
     #solution-text h1 {
         font-size: 23px;
     }
