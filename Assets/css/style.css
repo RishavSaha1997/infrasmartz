@@ -227,21 +227,23 @@ header{
     background-image: url('../Vectors/Vector.png');
     background-repeat: no-repeat;
     background-color: #f7f7f9;
-    height: 60vh;
+    height: 65vh;
 }
-#testimonial .leftBox img{
-    width: 230px;
+#testimonial .leftBox{
     margin-top: 110px;
     margin-left: 100px;
     align-items: center;
     justify-content: center;
 }
+#testimonial .leftBox img{
+    width: 230px;
+}
 #testimonial .rightBox{
-    margin-top: 110px;
-    margin-left: 150px;
+    padding-top: 110px;
+    padding-left: 150px;
 }
 #testimonial .rightBox p{
-    font-size: 34px;
+    font-size: 32px;
 }
 #testimonial .rightBox .quote h4{
     color: #6654E8;
@@ -272,6 +274,8 @@ header{
 }
 #consultation .leftBox h3{
     color: white;
+    margin-top: 33px;
+    padding-left: 35px;
     font-size: 30px;
 }
 #consultation .rightBox h2,

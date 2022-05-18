@@ -150,10 +150,20 @@
     #testimonial {
         height: 60vh;
     }
+    #testimonial .leftBox {
+        margin-top: 10px;
+        margin-left: 60px;
+        align-items: center;
+        justify-content: center;
+    }
     #testimonial .leftBox img {
         width: 100px;
         margin-top: 15px;
         margin-left: 100px;
+    }
+    #testimonial .rightBox {
+        padding-top: 140px;
+        padding-left: 200px;
     }
     #testimonial .rightBox p {
         font-size: 14px;
@@ -168,6 +178,10 @@
 
     #consultation {
         height: 465px;
+    }
+    #consultation .leftBox h3 {
+        margin-top: 20px;
+        padding-left: 0px;
     }
     
     /* footer */
