@@ -16,7 +16,7 @@
         height: 500px;
     }
     .banner-text{
-        padding-top: 200px;
+        padding-top: 150px;
         justify-content: center;
         text-align: center;
     }
@@ -36,6 +36,9 @@
         color: white;
         font-size: 14px;
         padding: 12px 14px;
+    }
+    #outer-text p {
+        font-size: 14px;
     }
 
     /* End Banner */
@@ -152,9 +155,7 @@
     }
     #testimonial .leftBox {
         margin-top: 10px;
-        margin-left: 60px;
-        align-items: center;
-        justify-content: center;
+        margin-left: 0px;
     }
     #testimonial .leftBox img {
         width: 100px;
