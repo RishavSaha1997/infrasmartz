@@ -200,6 +200,7 @@ header{
 .services .secondBlock{
     text-align: center;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 25px;
 }
 .services .serviceBox{

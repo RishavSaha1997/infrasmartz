@@ -101,7 +101,7 @@
     .services {
         margin-top: 100px;
         width: 100%;
-        height: 500px;
+        height: 700px;
     }
     .services .firstBlock {
     padding: 0px 0px;
@@ -123,6 +123,7 @@
     .services .secondBox p {
         color: rgb(134, 134, 134);
         font-size: 14px;
+        padding-top: 10px;
     }
     .secondBlock {
         text-align: center;
@@ -131,10 +132,9 @@
     .services .serviceBox {
         background-color: #1c1525;
         border: 1px solid rgba(211, 211, 211, 0.836);
-        margin: 4px;
+        margin: 10px;
         padding: 0px 10px;
-        width: 50%;
-        flex-wrap: wrap;
+        width: 35%;
     }
     .services .serviceBox p {
         font-size: 12px;
@@ -183,6 +183,11 @@
     #consultation .leftBox h3 {
         margin-top: 20px;
         padding-left: 0px;
+    }
+
+    /* clients */
+    #clients img{
+        width: 250px;
     }
     
     /* footer */
