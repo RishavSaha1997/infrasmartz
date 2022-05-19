@@ -46,7 +46,7 @@
     /* Solution */
 
     #solution{
-        margin-top: 100px;
+        margin-top: 20px;
     }
     #firstImage img{
         display: none;
@@ -99,7 +99,7 @@
     /* Services */
 
     .services {
-        margin-top: 100px;
+        margin-top: 50px;
         width: 100%;
         height: 700px;
     }
@@ -151,7 +151,7 @@
     /* Testimonial */
 
     #testimonial {
-        height: 60vh;
+        height: 500px;
     }
     #testimonial .leftBox {
         margin-top: 10px;
@@ -163,8 +163,8 @@
         margin-left: 100px;
     }
     #testimonial .rightBox {
-        padding-top: 140px;
-        padding-left: 200px;
+        padding-top: 20px ;
+        padding-left: 10px;
     }
     #testimonial .rightBox p {
         font-size: 14px;
@@ -178,6 +178,7 @@
     /* Consultation */
 
     #consultation {
+        margin-top: 50px;
         height: 465px;
     }
     #consultation .leftBox h3 {
