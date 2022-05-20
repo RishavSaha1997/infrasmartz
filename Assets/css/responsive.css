@@ -46,7 +46,7 @@
     /* Solution */
 
     #solution{
-        margin-top: 20px;
+        margin-top: 5px;
     }
     #firstImage img{
         display: none;
@@ -187,8 +187,11 @@
     }
 
     /* clients */
+    #clients {
+        margin-top: 50px;
+    }
     #clients img{
-        width: 250px;
+        width: 200px;
     }
     
     /* footer */
