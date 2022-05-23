@@ -173,7 +173,6 @@
     }
 
 
-
     /* End Testimonial */
 
     /* Consultation */
@@ -257,7 +256,7 @@
     }
     #testimonial .rightBox .quote-img {
         width: auto;
-        padding-right: 45px;
+        padding-right: 15px;
         padding-top: 50px;
     }
 
