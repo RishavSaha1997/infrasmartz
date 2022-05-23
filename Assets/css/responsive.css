@@ -195,6 +195,17 @@
     }
     
     /* footer */
+    #footer-one {
+        border: none;
+    }
+    .footer #footer-one .leftBox h4 {
+        margin-top: 16px;
+        font-size: 16px;
+    }
+    .footer #footer-one .rightBox .btn {
+        font-size: 14px;
+        padding: 14px 42px;
+    }
     .footer .centerBox1 {
         padding-left: 15px;
     }
@@ -271,6 +282,15 @@
     /* consultation */
     #consultation .leftBox h3 {
         margin-top: 0px;
+    }
+
+    /* footer */
+    .footer #footer-one .leftBox h4 {
+        margin-top: 14px;
+    }
+    .footer #footer-one .rightBox .btn {
+        font-size: 14px;
+        padding: 14px 42px;
     }
  }
 
