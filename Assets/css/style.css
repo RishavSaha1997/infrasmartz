@@ -87,7 +87,7 @@ header{
 .banner-text p{
     color: white;
     font-weight: 700;
-    font-size: 150px;
+    font-size: 125px;
     letter-spacing: 0.4rem;
 }
 .banner-text .btn{
@@ -322,6 +322,9 @@ header{
 }
 .footer .leftBox .subsrcibe p{
     color: grey;
+}
+.footer #footer-two .leftBox .logo img{
+    height: 100px;
 }
 .footer .centerBox1{
     padding-left: 130px;
