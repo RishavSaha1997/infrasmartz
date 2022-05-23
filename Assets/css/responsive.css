@@ -254,6 +254,12 @@
     #testimonial .rightBox p {
         font-size: 15px;
     }
+    #testimonial .rightBox .quote h4 {
+        font-size: 22px;
+    }
+    #testimonial .rightBox .quote h5 {
+        font-size: 18px;
+    }
     #testimonial .rightBox .quote-img {
         width: auto;
         padding-right: 15px;
