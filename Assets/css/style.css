@@ -197,8 +197,8 @@ header{
     margin-top: 15px;
 }
 .services .secondBox p{
-    color: rgb(134, 134, 134);
     font-size: 20px;
+    color: rgb(134, 134, 134);
 }
 
 .services .secondBlock{
@@ -310,13 +310,18 @@ header{
 #footer-one{
     border: 1px solid #767676;
 }
+.footer #footer-one .leftBox img{
+    margin-left: 25px;
+}
 .footer #footer-one .leftBox h4{
     color: white;
     margin-top: 25px;
+    margin-left: 25px;
 }
 .footer #footer-one .rightBox .btn{
     color: white;
     font-size: 22px;
+    margin-left: 75px;
     padding: 16px 24px;
 }
 .footer .centerBox1,

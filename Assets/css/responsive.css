@@ -77,7 +77,7 @@
     /* Solution */
 
     #solution{
-        margin-top: 5px;
+        margin-top: -16px;
     }
     #firstImage img{
         display: none;
@@ -143,7 +143,7 @@
     }
     .services .firstBox h2 {
         color: white;
-        font-size: 15px;
+        font-size: 16px;
         font-weight: 700;
         margin-top: 15px;
     }
@@ -153,8 +153,9 @@
     }
     .services .secondBox p {
         color: rgb(134, 134, 134);
-        font-size: 14px;
-        padding-top: 10px;
+        font-size: 12px;
+        padding-top: 20px;
+        padding-right: 14px;
     }
     .secondBlock {
         text-align: center;
@@ -231,12 +232,18 @@
     #footer-one {
         border: none;
     }
+    .footer #footer-one .leftBox img{
+        margin-left: 0;
+    }
     .footer #footer-one .leftBox h4 {
-        margin-top: 16px;
         font-size: 16px;
+        margin-top: 16px;
+        
     }
     .footer #footer-one .rightBox .btn {
         font-size: 14px;
+        margin-top: 5px;
+        margin-left: 5px;
         padding: 14px 42px;
     }
     .footer .centerBox1 {
@@ -317,6 +324,9 @@
 
     /* services */
 
+    
+    
+    
     
 
     /* end services */
