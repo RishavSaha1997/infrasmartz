@@ -49,23 +49,9 @@ header{
     font-size: 12px;
 }
 
-#testimonial .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: #6654E8;
-}
-
-
-
-
-
 .btn{
     background: #6654E8;
 }
-/* .btn a{
-    padding: 50px 25px;
-    color: white;
-    text-decoration: none;
-} */
-
 
 /* Banner */
 
@@ -262,7 +248,9 @@ header{
     padding-right: 150px;
     padding-top: 25px;
 }
-
+#testimonial .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #6654E8;
+}
 /* End Testimonial */
 
 /* Consultation */
@@ -331,6 +319,10 @@ header{
 }
 .footer .leftBox .subsrcibe p{
     color: grey;
+}
+.footer .leftBox .subsrcibe .btn{
+    margin-top: 5px;
+    padding: 5px 30px;
 }
 .footer #footer-two .leftBox .logo img{
     height: 100px;
