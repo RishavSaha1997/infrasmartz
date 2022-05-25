@@ -32,7 +32,7 @@
 
     <!-- Navbar Section -->
 
-    <header class="d-none d-lg-flex">
+    <header class="d-none d-lg-flex sticky">
         <div class="nav-logo">
             <a href="./index.html">
                 <img src="./Assets/Logo/logo.png" alt="logo">
@@ -57,8 +57,8 @@
             </div>
         </div>
     </header>
-    
-    <!-- Mobile Header --> 
+
+    <!-- Mobile Header -->
     <section class="mob-nav d-lg-none d-flex justify-content-between align-items-center p-3">
         <div class="navbar-logo">
             <a href="./index.html">
@@ -66,16 +66,12 @@
             </a>
         </div>
         <div>
-            <button class="btn text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+            <button class="btn text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav">
                 <i class="fa-solid fa-bars"></i>
             </button>
         </div>
     </section>
-    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-        <div class="offcanvas-header">
-          <img src="./Assets/Logo/logo.png" alt="">
-          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="mobileNav">
         <div class="offcanvas-body">
             <ul class="">
                 <li><a href="./index.html">Home</a></li>
@@ -83,9 +79,8 @@
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ul>
-          </div>
         </div>
-      </div>
+    </div>
 
     <!-- End Navbar Section -->
 
@@ -201,7 +196,9 @@
                         <img src="./Assets/Images/Frame 5.png" alt="">
                     </div>
                     <div class="rightBox">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nisi, omnis sapiente sint, necessitatibus debitis hic beatae consequatur unde nobis nihil optio corrupti esse corporis. Mollitia reprehenderit aliquam cupiditate possimus?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nisi, omnis sapiente sint,
+                            necessitatibus debitis hic beatae consequatur unde nobis nihil optio corrupti esse corporis.
+                            Mollitia reprehenderit aliquam cupiditate possimus?</p>
                         <div class="d-flex justify-content-between mt-5">
                             <div class="quote">
                                 <h4>John Doe</h4>
@@ -218,7 +215,8 @@
                         <img src="./Assets/Images/Frame 5.png" alt="">
                     </div>
                     <div class="rightBox">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure possimus odio dignissimos ut similique explicabo. Cumque optio vero consectetur quos?</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure possimus odio dignissimos ut
+                            similique explicabo. Cumque optio vero consectetur quos?</p>
                         <div class="d-flex justify-content-between mt-5">
                             <div class="quote">
                                 <h4>John Doe</h4>
@@ -298,8 +296,9 @@
                     </div>
                     <div class="subsrcibe mt-5">
                         <p>Subsrcibe for our upcoming latest articles and news resources</p>
-                        <form action="">
-                            <input class="form-control" type="email" name="email" id="email" placeholder="Enter Email Address">
+                        <form action="" id="newsletterForm">
+                            <input class="form-control shadow-none" type="email" name="email" id="email"
+                                placeholder="Enter Email Address">
                         </form>
                         <button class="btn text-white" type="button"><i class="fa-solid fa-play"></i></button>
                     </div>
@@ -392,15 +391,15 @@
     <!-- Testimonial Slider -->
     <script>
         $(".testimonial-slider").owlCarousel({
-          autoplay: true,
-          pauseOnHover: true,
-          autoplayTimeout: 3000,
-          items: 1,
-          nav: false,
-          loop: true,
-          dots: true,
+            autoplay: true,
+            pauseOnHover: true,
+            autoplayTimeout: 3000,
+            items: 1,
+            nav: false,
+            loop: true,
+            dots: true,
         })
-      </script>
+    </script>
 
     <!-- Changing the Year Dynamically -->
     <script>
@@ -410,7 +409,7 @@
 
     <!-- Changing Navbar OnScroll -->
     <script>
-        const navbar = document.querySelector('.navbar');
+        const navbar = document.querySelector('header');
         window.onscroll = () => {
             if (window.scrollY > 50) {
                 navbar.classList.add('sticky');

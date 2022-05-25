@@ -5,7 +5,7 @@
 }
 
 header{
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -16,12 +16,61 @@ header{
     padding: 10px 75px 10px 75px;
     z-index: 9999999;
 }
+
+header.sticky .nav-logo img{
+    height: 60px;
+}
+
+header.sticky .nav-link li a{
+    font-size: 16px;
+}
+
+/* Navbar */
+.mob-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px -5px 25px rgba(0,0,0,0.1);
+    z-index: 999;
+}
+.offcanvas{
+    background-color: rgb(1,1,1,0.7);
+    backdrop-filter: blur(10px);
+}
+.offcanvas-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offcanvas-body ul{
+    list-style: none;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 5rem;
+    padding-left: 0;
+}
+.offcanvas-body ul a{
+    color: #fff;
+    text-decoration: none;
+}
+.offcanvas-start {
+    width: 80vw;
+}
+.offcanvas-header img{
+    height: 60px;
+}
+
 .nav-logo{
     cursor: pointer;
 }
 .nav-logo img{
     width: 100%;
     height: 100px;
+    transition: 0.5s all;
 }
 .nav-link{
     padding-top: 25px;
@@ -49,6 +98,10 @@ header{
     font-size: 12px;
 }
 
+#testimonial .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #6654E8;
+}
+
 .btn{
     background: #6654E8;
 }
@@ -61,7 +114,7 @@ header{
     background-image: url('../Images/Frame\ 11.png');
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 120px;
+    /* margin-top: 120px; */
 }
 .banner-text{
     padding-top: 250px;
@@ -121,9 +174,9 @@ header{
     left: -50%;
     width: 130%;
 }
-#solution-text{
+/* #solution-text{
     padding-left: 100px;
-}
+} */
 #solution-text h6{
     color: #6654E8;
     font-weight: 700;
@@ -161,10 +214,11 @@ header{
 .services{
     margin-top: 150px;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url('../Images/Frame\ 4.png');
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 100px;
 }
 .services .firstBlock{
     justify-content: space-between;
@@ -218,7 +272,8 @@ header{
     background-image: url('../Vectors/Vector.png');
     background-repeat: no-repeat;
     background-color: #f7f7f9;
-    height: 65vh;
+    min-height: 65vh;
+    padding-bottom: 50px;
 }
 #testimonial .leftBox{
     margin-top: 110px;
@@ -290,6 +345,15 @@ header{
 /* End CLients */
 
 /* Footer */
+
+#newsletterForm input[type=email]{
+    height: 45px;
+    border-radius: 0;
+}
+
+#newsletterForm ::placeholder{
+    font-size: 12px;
+}
 
 .footer{
     width: 100%;
