@@ -206,13 +206,15 @@
     .footer #footer-one .leftBox h4 {
         font-size: 16px;
         margin-top: 16px;
-        
+    }
+    .footer .leftBox .subsrcibe .btn {
+        padding: 5px 15px;
     }
     .footer #footer-one .rightBox .btn {
         font-size: 14px;
         margin-top: 5px;
         margin-left: 5px;
-        padding: 14px 42px;
+        padding: 14px 20px;
     }
     .footer .centerBox1 {
         padding-left: 15px;
@@ -338,7 +340,7 @@
     }
     .footer #footer-one .rightBox .btn {
         font-size: 14px;
-        padding: 14px 42px;
+        padding: 14px 20px;
     }
     
  }
