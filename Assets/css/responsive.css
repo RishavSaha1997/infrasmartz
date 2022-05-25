@@ -167,9 +167,13 @@
         padding: 0px 10px;
         width: 35%;
     }
+    .services .serviceBox img{
+        margin-top: 15px;
+    }
     .services .serviceBox p {
         font-size: 12px;
         text-align: center;
+        margin-top: 20px;
     }
     .services .btn {
         color: white;
