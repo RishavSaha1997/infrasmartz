@@ -214,11 +214,10 @@ header.sticky .nav-link li a{
 .services{
     margin-top: 150px;
     width: 100%;
-    min-height: 100vh;
     background-image: url('../Images/Frame\ 4.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 100px;
+    padding-bottom: 75px;
 }
 .services .firstBlock{
     justify-content: space-between;
@@ -272,7 +271,6 @@ header.sticky .nav-link li a{
     background-image: url('../Vectors/Vector.png');
     background-repeat: no-repeat;
     background-color: #f7f7f9;
-    min-height: 65vh;
     padding-bottom: 50px;
 }
 #testimonial .leftBox{

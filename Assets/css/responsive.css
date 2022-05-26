@@ -98,9 +98,9 @@
     /* Services */
 
     .services {
-        margin-top: 50px;
         width: 100%;
-        height: 700px;
+        margin-top: 50px;
+        padding-bottom: 50px;
     }
     .services .firstBlock {
     padding: 0px 0px;
@@ -154,9 +154,6 @@
 
     /* Testimonial */
 
-    #testimonial {
-        height: 500px;
-    }
     #testimonial .leftBox {
         margin-top: 10px;
         margin-left: 0px;
