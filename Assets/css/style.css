@@ -105,12 +105,6 @@ header.sticky .nav-link li a{
 .btn{
     background: #6654E8;
 }
-/* .btn a{
-    padding: 50px 25px;
-    color: white;
-    text-decoration: none;
-} */
-
 
 /* Banner */
 
@@ -220,11 +214,10 @@ header.sticky .nav-link li a{
 .services{
     margin-top: 150px;
     width: 100%;
-    min-height: 100vh;
     background-image: url('../Images/Frame\ 4.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 100px;
+    padding-bottom: 75px;
 }
 .services .firstBlock{
     justify-content: space-between;
@@ -278,7 +271,6 @@ header.sticky .nav-link li a{
     background-image: url('../Vectors/Vector.png');
     background-repeat: no-repeat;
     background-color: #f7f7f9;
-    min-height: 65vh;
     padding-bottom: 50px;
 }
 #testimonial .leftBox{
@@ -309,7 +301,9 @@ header.sticky .nav-link li a{
     padding-right: 150px;
     padding-top: 25px;
 }
-
+#testimonial .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #6654E8;
+}
 /* End Testimonial */
 
 /* Consultation */
@@ -391,6 +385,10 @@ header.sticky .nav-link li a{
 }
 .footer .leftBox .subsrcibe p{
     color: grey;
+}
+.footer .leftBox .subsrcibe .btn{
+    margin-top: 5px;
+    padding: 5px 30px;
 }
 .footer #footer-two .leftBox .logo img{
     height: 100px;
