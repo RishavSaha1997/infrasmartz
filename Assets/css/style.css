@@ -359,6 +359,10 @@ header.sticky .nav-link li a{
     font-size: 12px;
 }
 
+#subscribeBtn{
+    font-size: 12px;
+}
+
 .footer{
     width: 100%;
     background: #1c1525;
