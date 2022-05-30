@@ -225,6 +225,20 @@
         padding-bottom: 15px;
         margin-bottom: auto;
     }
+    
+
+    .about-text{
+        margin-top: 96px;
+        height: 150px;
+    }
+    .about-text::before{
+        height: 150px;
+    }
+    .about-text h2{
+        font-size: 2rem;
+        padding-top: 10px;
+        width: auto;
+    }
 }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
@@ -339,6 +353,57 @@
         font-size: 14px;
         padding: 14px 20px;
     }
+
+    /* About Us Page */
+
+    .about-text{
+        margin-top: 96px;
+        height: 150px;
+    }
+    .about-text::before{
+        height: 150px;
+    }
+    .about-text h2{
+        font-size: 2rem;
+        padding-top: 10px;
+        width: auto;
+    }
+
+
+    /* End About Us Page */
+
+    /* Services Page */
+
+    #services{
+        margin-top: 96px;
+        height: 150px;
+    }
+    .service-text::before{
+        height: 150px;
+    }
+    .service-text h2{
+        font-size: 2rem;
+        padding-top: 10px;
+        width: auto;
+    }
+
+    /* End Services Page */
+
+    /* Contact Us page */
+
+    #contactUs{
+        margin-top: 96px;
+        height: 150px;
+    }
+    .contact-text::before{
+        height: 150px;
+    }
+    .contact-text h2{
+        font-size: 2rem;
+        padding-top: 10px;
+        width: auto;
+    }
+
     
  }
 
