@@ -83,7 +83,6 @@ header.sticky .nav-link li a{
 .nav-link li a{
     color: black;
     font-size: 20px;
-    font-weight: 500;
     padding: 0 15px;
     text-decoration: none;
     transition: all 0.3s ease;

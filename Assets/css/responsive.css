@@ -227,16 +227,59 @@
     }
     
 
+    /* About Us Page */
+
     .about-text{
-        margin-top: 96px;
-        height: 150px;
+        margin-top: 115px;
+        height: 175px;
     }
     .about-text::before{
-        height: 150px;
+        height: 175px;
+    }
+    .about-text h5 {
+        font-size: 12px;
     }
     .about-text h2{
-        font-size: 2rem;
-        padding-top: 10px;
+        font-size: 1.5rem;
+        width: auto;
+    }
+
+
+    /* End About Us Page */
+
+    /* Services Page */
+
+    #services{
+        margin-top: 115px;
+        height: 175px;
+    }
+    .service-text::before{
+        height: 175px;
+    }
+    .service-text h5 {
+        font-size: 12px;
+    }
+    .service-text h2{
+        font-size: 1.5rem;
+        width: auto;
+    }
+
+    /* End Services Page */
+
+    /* Contact Us page */
+
+    #contactUs{
+        margin-top: 115px;
+        height: 175px;
+    }
+    .contact-text::before{
+        height: 175px;
+    }
+    .contact-text h5 {
+        font-size: 12px;
+    }
+    .contact-text h2{
+        font-size: 1.5rem;
         width: auto;
     }
 }
@@ -357,15 +400,17 @@
     /* About Us Page */
 
     .about-text{
-        margin-top: 96px;
-        height: 150px;
+        margin-top: 115px;
+        height: 175px;
     }
     .about-text::before{
-        height: 150px;
+        height: 175px;
+    }
+    .about-text h5 {
+        font-size: 12px;
     }
     .about-text h2{
-        font-size: 2rem;
-        padding-top: 10px;
+        font-size: 1.5rem;
         width: auto;
     }
 
@@ -375,15 +420,17 @@
     /* Services Page */
 
     #services{
-        margin-top: 96px;
-        height: 150px;
+        margin-top: 115px;
+        height: 175px;
     }
     .service-text::before{
-        height: 150px;
+        height: 175px;
+    }
+    .service-text h5 {
+        font-size: 12px;
     }
     .service-text h2{
-        font-size: 2rem;
-        padding-top: 10px;
+        font-size: 1.5rem;
         width: auto;
     }
 
@@ -392,15 +439,17 @@
     /* Contact Us page */
 
     #contactUs{
-        margin-top: 96px;
-        height: 150px;
+        margin-top: 115px;
+        height: 175px;
     }
     .contact-text::before{
-        height: 150px;
+        height: 175px;
+    }
+    .service-text h5 {
+        font-size: 12px;
     }
     .contact-text h2{
-        font-size: 2rem;
-        padding-top: 10px;
+        font-size: 1.5rem;
         width: auto;
     }
 
