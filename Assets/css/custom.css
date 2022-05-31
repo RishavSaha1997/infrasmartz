@@ -38,6 +38,15 @@
     border: 0; */
     display: inline-block;
 }
+#aboutUs{
+    margin-top: 75px;
+}
+.main-content p{
+    font-size: 22px;
+    color: grey;
+    margin-top: 45px;
+    line-height: 2.5rem;
+}
 
 
 /* End About US Section */

@@ -39,12 +39,14 @@
             </a>
         </div>
         <nav>
-            <ul class="nav-link">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About Us</a></li>
-                <li><a href="./services.html">Services</a></li>
-                <li><a href="./contact.html">Contact Us</a></li>
-            </ul>
+            <div class="navbar" id="navbar">
+                <ul class="nav-item">
+                    <li><a class="nav-link active" href="./index.html">Home</a></li>
+                    <li><a class="nav-link" href="./about.html">About Us</a></li>
+                    <li><a class="nav-link" href="./services.html">Services</a></li>
+                    <li><a class="nav-link" href="./contact.html">Contact Us</a></li>
+                </ul>
+            </div>
         </nav>
         <div class="address">
             <div>
@@ -417,6 +419,20 @@
                 navbar.classList.remove('sticky');
             }
         };
+    </script>
+
+    <!-- Active Navbar -->
+    <script>
+        var btnContainer = document.getElementById("navbar");
+        var btns = btnContainer.getElementsByClassName("nav-link");
+
+        for(var i=0; i<btns.length; i++){
+            btns[i].addEventListener('click',function(){
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace("active");
+                this.className += " active";
+            })
+        }
     </script>
 </body>
 

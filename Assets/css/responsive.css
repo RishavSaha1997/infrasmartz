@@ -243,6 +243,14 @@
         font-size: 1.5rem;
         width: auto;
     }
+    #aboutUs{
+        margin-top: 50px;
+    }
+    .main-content p{
+        font-size: 14px;
+        margin-top: 30px;
+        line-height: 1.5rem;
+    }
 
 
     /* End About Us Page */

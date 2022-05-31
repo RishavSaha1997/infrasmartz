@@ -10,7 +10,7 @@ header{
     left: 0;
     width: 100%;
     background-color: white;
-    box-shadow: 0px -5px 25px rgba(0,0,0,0.1);
+    box-shadow: 0px -5px 25px rgba(0,0,0,0.2);
     justify-content: space-between;
     align-items: center;
     padding: 10px 75px 10px 75px;
@@ -18,11 +18,17 @@ header{
 }
 
 header.sticky .nav-logo img{
-    height: 60px;
+    height: 85px;
 }
 
-header.sticky .nav-link li a{
-    font-size: 16px;
+header.sticky .nav-item li a{
+    font-size: 18px;
+}
+header.sticky .address i{
+    font-size: 12px;
+}
+header.sticky .text{
+    font-size: 12px;
 }
 
 /* Navbar */
@@ -72,31 +78,36 @@ header.sticky .nav-link li a{
     height: 100px;
     transition: 0.5s all;
 }
-.nav-link{
+.navbar .nav-item{
     padding-top: 25px;
     list-style: none;
 }
-.nav-link li{
+.navbar .nav-item li{
     display: inline-block;
-    padding: 0px 20px;
-}
-.nav-link li a{
-    color: black;
+    padding: 0px 25px;
     font-size: 20px;
-    padding: 0 15px;
-    text-decoration: none;
-    transition: all 0.3s ease;
 }
-.nav-link li a:hover{
+.navbar .nav-item li a{
+    color: rgb(44, 43, 43);
+}
+.navbar .nav-item li .active{
+    color: black;
+    font-weight: 500;
+    border-bottom: 3px solid #6654E8;
+}
+.navbar .nav-item li :hover{
     color: #6654E8;
 }
+
 .address i{
     color: #6654E8;
-    font-size: 12px;
+    font-size: 14px;
 }
 .text{
-    font-size: 12px;
+    font-size: 14px;
 }
+
+
 
 #testimonial .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #6654E8;

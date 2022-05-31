@@ -39,13 +39,33 @@
             </a>
         </div>
         <nav>
-            <ul class="nav-link">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About Us</a></li>
-                <li><a href="./services.html">Services</a></li>
-                <li><a href="./contact.html">Contact Us</a></li>
-            </ul>
+            <div class="navbar" id="navbar">
+                <ul class="nav-item">
+                    <li><a class="nav-link" href="./index.html">Home</a></li>
+                    <li><a class="nav-link active" href="./about.html">About Us</a></li>
+                    <li><a class="nav-link" href="./services.html">Services</a></li>
+                    <li><a class="nav-link" href="./contact.html">Contact Us</a></li>
+                </ul>
+            </div>
         </nav>
+        <!-- <div class="menu_wrapper">
+            <div class="navbar" id="navbar">
+                <ul class="nav-item">
+                    <li>
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
         <div class="address">
             <div>
                 <span><i class="fa-solid fa-location-dot"></i></span>
@@ -89,6 +109,25 @@
     <div class="aboutUs about-text">
         <h5>INFRASMARTZ / About Us</h5>
         <h2><span>About Us</span></h2>
+    </div>
+    <div class="container" id="aboutUs">
+        <div class="main-content">
+            <p>INFRASMARTZ is one of Princeton's trusted name in Computer Hardware, Security and Network Consulting, maintenance, and
+                management.
+            </p>
+            <p class="">We have been providing outstanding and reliable technology services to our valuable clientele for many years. We have helped Health Care
+                and other companies in providing Infrastructure and Data security. Let us help you design and implement an IT strategy for your business
+                that will give you a competitive advantage. In today's market, it is essential that your data is backed up and secure. Develop a network that
+                will grow with your business. Protect your infrastructure, ideas, and investment. Call us today and save on all the money you might end up
+                spending on IT resources and hardware that you might not need.
+            </p>
+            <p class="pb-4">Our knowledgeable and friendly support representatives can provide monitoring and help during work hours. We save you money and
+                productivity, using our innovative strategy of proactive maintenance, continual monitoring, and progressive design. We provide on-site and
+                remote support for optimal response to any situation. Our goal is to predict changing needs and prepare for them before a problem arises.
+                We design infrastructures that allow you to grow with ease and stability. Our experts can provide you the state-of-the-art, industry
+                standard security for your data.
+            </p>
+        </div>
     </div>
 
     <!-- End About Us Section -->
@@ -212,17 +251,19 @@
         document.getElementById("demo").innerHTML = d.getFullYear();
     </script>
 
-    <!-- Changing Navbar OnScroll -->
-    <!-- <script>
-        const navbar = document.querySelector('header');
-        window.onscroll = () => {
-            if (window.scrollY > 50) {
-                navbar.classList.add('sticky');
-            } else {
-                navbar.classList.remove('sticky');
-            }
-        };
-    </script> -->
+    <!-- Active Navbar -->
+    <script>
+        var btnContainer = document.getElementById("navbar");
+        var btns = btnContainer.getElementsByClassName("nav-link");
+
+        for(var i=0; i<btns.length; i++){
+            btns[i].addEventListener('click',function(){
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace("active");
+                this.className += " active";
+            })
+        }
+    </script>
 </body>
 
 </html>
