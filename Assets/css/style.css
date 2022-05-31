@@ -108,11 +108,6 @@ header.sticky .text{
 }
 
 
-
-#testimonial .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: #6654E8;
-}
-
 .btn{
     background: #6654E8;
 }
@@ -216,6 +211,9 @@ header.sticky .text{
 #solution-text .btn a{
     color: white;
     text-decoration: none;
+}
+#solution-text .btn a:hover{
+    color: black;
 }
 
 /* End Solution */
