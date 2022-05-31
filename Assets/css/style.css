@@ -97,6 +97,7 @@ header.sticky .text{
 }
 .navbar .nav-item li :hover{
     color: #6654E8;
+    border-bottom: 3px solid #6654E8;
 }
 
 .address i{
