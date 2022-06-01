@@ -85,6 +85,7 @@ header.sticky .text{
 .navbar .nav-item li{
     display: inline-block;
     padding: 0px 25px;
+    font-weight: 500;
     font-size: 20px;
 }
 .navbar .nav-item li a{
