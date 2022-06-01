@@ -100,11 +100,11 @@ header.sticky .text{
     border-bottom: 3px solid #6654E8;
 }
 
-.address i{
+.nav-address i{
     color: #6654E8;
     font-size: 14px;
 }
-.text{
+.nav-address .text{
     font-size: 14px;
 }
 
