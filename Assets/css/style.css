@@ -146,6 +146,9 @@ header.sticky .text{
     font-size: 22px;
     padding: 16px 24px;
 }
+.banner-text .btn:hover{
+    background: #2ED3A2;
+}
 
 #outer-text{
     background: #6654E8;
@@ -214,8 +217,8 @@ header.sticky .text{
     color: white;
     text-decoration: none;
 }
-#solution-text .btn a:hover{
-    color: black;
+#solution-text .btn:hover{
+    background: #2ED3A2;
 }
 
 /* End Solution */
@@ -270,10 +273,17 @@ header.sticky .text{
     text-align: center;
 }
 .services .btn{
-    color: white;
     font-size: 22px;
     padding: 14px 42px;
 }
+.services .btn:hover{
+    background: #2ED3A2;
+}
+.services .btn a{
+    text-decoration: none;
+    color: white;
+}
+
 /* End Services */
 
 /* Testimonial */
@@ -388,6 +398,9 @@ header.sticky .text{
     font-size: 22px;
     margin-left: 75px;
     padding: 16px 24px;
+}
+.footer #footer-one .rightBox .btn:hover{
+    background: #2ED3A2;
 }
 .footer .centerBox1,
  .footer .centerBox2, 
