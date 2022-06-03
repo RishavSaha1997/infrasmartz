@@ -41,11 +41,18 @@
 #aboutUs{
     margin-top: 75px;
 }
+.main-content h1{
+    font-weight: 700;
+}
 .main-content p{
-    font-size: 22px;
+    font-size: 20px;
     color: grey;
-    margin-top: 45px;
-    line-height: 2.5rem;
+    margin-top: 25px;
+    line-height: 2rem;
+    /* text-align: justify; */
+}
+.imgBlock1 img{
+    margin-top: 50px;
 }
 
 

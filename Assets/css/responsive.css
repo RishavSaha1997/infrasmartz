@@ -243,12 +243,18 @@
         width: auto;
     }
     #aboutUs{
-        margin-top: 50px;
+        margin-top: 25px;
     }
     .main-content p{
         font-size: 14px;
-        margin-top: 30px;
+        margin-top: 15px;
         line-height: 1.5rem;
+    }
+    .imgBlock1 img{
+        width: 100%;
+    }
+    .imgBlock2 img{
+        width: 100%;
     }
 
 
@@ -423,6 +429,17 @@
         font-size: 1.5rem;
         width: auto;
     }
+    .main-content p {
+        font-size: 16px;
+        color: grey;
+        margin-top: 20px;
+        line-height: 1.5rem;
+    }
+    .imgBlock1 img, .imgBlock2 img{
+        width: 100%;
+        margin-top: 35px;
+    }
+    
 
 
     /* End About Us Page */

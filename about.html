@@ -110,27 +110,67 @@
         <h5>INFRASMARTZ / About Us</h5>
         <h2><span>About Us</span></h2>
     </div>
-    <!-- <div class="container" id="aboutUs">
-        <div class="main-content">
-            <p><b>INFRASMARTZ</b> is one of Princeton's trusted name in Computer Hardware, Security and Network Consulting, maintenance, and
-                management.
-            </p>
-            <p class="">We have been providing outstanding and reliable technology services to our valuable clientele for many years. We have helped Health Care
-                and other companies in providing Infrastructure and Data security. Let us help you design and implement an IT strategy for your business
-                that will give you a competitive advantage. In today's market, it is essential that your data is backed up and secure. Develop a network that
-                will grow with your business. Protect your infrastructure, ideas, and investment. Call us today and save on all the money you might end up
-                spending on IT resources and hardware that you might not need.
-            </p>
-            <p class="pb-4">Our knowledgeable and friendly support representatives can provide monitoring and help during work hours. We save you money and
-                productivity, using our innovative strategy of proactive maintenance, continual monitoring, and progressive design. We provide on-site and
-                remote support for optimal response to any situation. Our goal is to predict changing needs and prepare for them before a problem arises.
-                We design infrastructures that allow you to grow with ease and stability. Our experts can provide you the state-of-the-art, industry
-                standard security for your data.
-            </p>
+    <div class="container" id="aboutUs">
+        <div class="row">
+            <div class="col-lg-4 col-md-5 col-sm-12 order-2 order-lg-1 order-md-1 order-sm-2 imgBlock1">
+                <img src="./Assets/Images/Frame_18.png" alt="about-us">
+            </div>
+            <div class="col-lg-8 col-md-7 col-sm-12 order-1 order-lg-2 order-md-2 order-sm-1 main-content">
+                <h1>About Our Company</h1>
+                <p><b>INFRASMARTZ</b> is one of Princeton's trusted name in Computer Hardware, Security and Network
+                    Consulting, maintenance, and
+                    management.
+                </p>
+                <p>We have been providing outstanding and reliable technology services to our valuable
+                    clientele for many years. We have helped Health Care
+                    and other companies in providing Infrastructure and Data security. Let us help you design and
+                    implement an IT strategy for your business
+                    that will give you a competitive advantage. In today's market, it is essential that your data is
+                    backed up and secure. Develop a network that
+                    will grow with your business. Protect your infrastructure, ideas, and investment. 
+                    Call us today and
+                    save on all the money you might end up
+                    spending on IT resources and hardware that you might not need.
+                </p>
+            </div>
+            <div class="col-lg-8 col-md-7 col-sm-12 order-3 main-content">
+                <p>Our knowledgeable and friendly support representatives can provide monitoring and help
+                    during work hours. We save you money and
+                    productivity, using our innovative strategy of proactive maintenance, continual monitoring, and
+                    progressive design. We provide on-site and
+                    remote support for optimal response to any situation. Our goal is to predict changing needs and
+                    prepare for them before a problem arises.
+                    We design infrastructures that allow you to grow with ease and stability. Our experts can provide
+                    you the state-of-the-art, industry
+                    standard security for your data.
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-5 col-sm-12 order-4 imgBlock2">
+                <img src="./Assets/Images/Frame_17.png" alt="about-us">
+            </div>
         </div>
-    </div> -->
+    </div>
 
     <!-- End About Us Section -->
+
+    <!-- Consultation Section -->
+
+    <div class="container" id="consultation">
+        <div class="row">
+            <div class="col-md-4 mt-5 leftBox">
+                <h3 class="">Trusted source in IT sercives</h3>
+            </div>
+            <div class="col-md-4 chatbox mt-5">
+                <img src="./Assets/Icons/Vector 1.png" alt="">
+            </div>
+            <div class="col-md-4 mt-5 rightBox">
+                <p class="mb-0 pt-3">Free Consultation</p>
+                <h2>+1 (609) 377-7222</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- End COnsultation Section -->
 
     <!-- Footer Section -->
 
@@ -256,8 +296,8 @@
         var btnContainer = document.getElementById("navbar");
         var btns = btnContainer.getElementsByClassName("nav-link");
 
-        for(var i=0; i<btns.length; i++){
-            btns[i].addEventListener('click',function(){
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener('click', function () {
                 var current = document.getElementsByClassName("active");
                 current[0].className = current[0].className.replace("active");
                 this.className += " active";
