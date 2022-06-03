@@ -357,7 +357,8 @@ header.sticky .text{
 #clients{
     margin-top: 100px;
 }
-#clients h5{
+#clients h1{
+    color: #6654E8;
     font-weight: 700;
 }
 

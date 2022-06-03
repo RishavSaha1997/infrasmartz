@@ -42,11 +42,12 @@
     margin-top: 75px;
 }
 .main-content h1{
+    color: #6654E8;
     font-weight: 700;
 }
 .main-content p{
     font-size: 20px;
-    color: grey;
+    color: rgb(150, 150, 150);
     margin-top: 25px;
     line-height: 2rem;
     /* text-align: justify; */
