@@ -7,6 +7,9 @@
 }
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
+    .nav-logo img{
+        width: 100%;
+    }
     /* Banner */
     .banner {
         width: 100%;
@@ -20,14 +23,14 @@
     }
     .banner-text h3 {
         color: #2ED3A2;
-        font-size: 16px;
+        font-size: 14px;
         letter-spacing: 0.2rem;
         margin-bottom: 0px;
     }
     .banner-text p {
         color: white;
         font-weight: 700;
-        font-size: 50px;
+        font-size: 40px;
         letter-spacing: 0.4rem;
     }
     .banner-text .btn {
