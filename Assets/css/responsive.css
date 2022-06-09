@@ -279,6 +279,12 @@
         font-size: 1.5rem;
         width: auto;
     }
+    #service {
+        margin-top: 40px;
+    }
+    #service h1 {
+        font-size: 35px;
+    }
 
     /* End Services Page */
 
@@ -462,6 +468,9 @@
     .service-text h2{
         font-size: 1.5rem;
         width: auto;
+    }
+    #service .service-title p {
+        font-size: 13px;
     }
 
     /* End Services Page */
