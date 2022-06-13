@@ -381,9 +381,7 @@
     /* end services */
 
     /* testimonial */
-    #testimonial{
-        height: 500px;
-    }
+
     #testimonial .leftBox img {
         width: 125px;
         margin-right: 20px;

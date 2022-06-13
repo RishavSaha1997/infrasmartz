@@ -23,9 +23,11 @@
       referrerpolicy="no-referrer"
     />
 
-    <!-- Owl Carousel CSS -->
-    <link rel="stylesheet" href="./Assets/css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="./Assets/css/owl.theme.default.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./Assets/css/style.css" />
@@ -227,9 +229,9 @@
     <!-- Testimonial Section -->
 
     <div class="container-fluid" id="testimonial">
-      <div class="row">
-        <div class="owl-carousel owl-theme testimonial-slider">
-          <div class="item d-md-flex">
+      <div class="swiper testimonial-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide col-md-12 d-md-flex">
             <div class="leftBox">
               <img src="./Assets/Images/Frame 5.png" alt="" />
             </div>
@@ -252,7 +254,7 @@
               </div>
             </div>
           </div>
-          <div class="item d-md-flex">
+          <div class="swiper-slide col-md-12 d-md-flex">
             <div class="leftBox">
               <img src="./Assets/Images/Frame 5.png" alt="" />
             </div>
@@ -277,7 +279,7 @@
               </div>
             </div>
           </div>
-          <div class="item d-md-flex">
+          <div class="swiper-slide col-md-12 d-md-flex">
             <div class="leftBox">
               <img src="./Assets/Images/Frame 5.png" alt="" />
             </div>
@@ -302,6 +304,7 @@
             </div>
           </div>
         </div>
+        <div class="swiper-pagination"></div>
       </div>
     </div>
 
@@ -351,28 +354,27 @@
 
     <!-- End Footer Section -->
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Owl Carousel JS -->
-    <script src="./Assets/plugins/owl.carousel.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <script src="./Assets/js/main.js"></script>
-
-    <!-- Testimonial Slider -->
+    <!-- Initialize Swiper -->
     <script>
-      $(".testimonial-slider").owlCarousel({
-        autoplay: true,
-        pauseOnHover: true,
-        autoplayTimeout: 3000,
-        items: 1,
-        nav: false,
+      var swiper = new Swiper(".testimonial-slider", {
         loop: true,
-        dots: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
       });
     </script>
+
+    <script src="./Assets/js/main.js"></script>
   </body>
 </html>

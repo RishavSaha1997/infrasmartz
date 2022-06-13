@@ -337,9 +337,13 @@ header.sticky .nav-item li {
   padding-right: 150px;
   padding-top: 25px;
 }
-#testimonial .owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
+
+#testimonial .swiper-pagination-bullet-active {
   background: #6654e8;
+}
+
+#testimonial .swiper-pagination {
+  position: unset;
 }
 /* End Testimonial */
 
