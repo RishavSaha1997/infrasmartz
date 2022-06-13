@@ -43,10 +43,6 @@ function IsNumeric(e) {
     ])
     .addField("#phone", [
       {
-        rule: "required",
-        errorMessage: "Number is required",
-      },
-      {
         rule: "number",
         errorMessage: "Only number",
       },
@@ -75,7 +71,8 @@ function IsNumeric(e) {
     ])
     .onSuccess((ev) => {
       ev.preventDefault();
-      alert("Submitted");
-      document.getElementById("contactForm").reset();
+      Swal.fire("Good job!", "You clicked the button!", "success").then(() => {
+        document.getElementById("contactForm").reset();
+      });
     });
 })();
