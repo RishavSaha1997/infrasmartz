@@ -285,25 +285,7 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Changing the Year Dynamically -->
-    <script>
-        const d = new Date();
-        document.getElementById("demo").innerHTML = d.getFullYear();
-    </script>
-
-    <!-- Active Navbar -->
-    <script>
-        var btnContainer = document.getElementById("navbar");
-        var btns = btnContainer.getElementsByClassName("nav-link");
-
-        for (var i = 0; i < btns.length; i++) {
-            btns[i].addEventListener('click', function () {
-                var current = document.getElementsByClassName("active");
-                current[0].className = current[0].className.replace("active");
-                this.className += " active";
-            })
-        }
-    </script>
+    <script src="./Assets/js/main.js"></script>
 </body>
 
 </html>
