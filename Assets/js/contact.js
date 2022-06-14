@@ -71,8 +71,46 @@ function IsNumeric(e) {
     ])
     .onSuccess((ev) => {
       ev.preventDefault();
-      Swal.fire("Good job!", "You clicked the button!", "success").then(() => {
-        document.getElementById("contactForm").reset();
-      });
+
+      // Disable button
+      let button = document.getElementById("submitBtn");
+      button.innerHTML = "Please wait...";
+      button.disabled = true;
+
+      const form = {
+        name: document.getElementById("name"),
+        email: document.getElementById("email"),
+        phone: document.getElementById("phone"),
+        subject: document.getElementById("subject"),
+        message: document.getElementById("message"),
+      };
+
+      // Get form data
+      let params = `name=${form.name.value}&email=${form.email.value}&phone=${form.phone.value}&subject=${form.subject.value}&message=${form.message.value}`;
+      // Create XHR object
+      var xhr = new XMLHttpRequest();
+      // Open - type, url/file, async
+      xhr.open("POST", "mailscript.php", true);
+      xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+      xhr.onload = function () {
+        responseObject = JSON.parse(this.responseText);
+
+        if (responseObject.msgType == true) {
+          Swal.fire("Good job!", responseObject.msg, "success").then(() => {
+            document.getElementById("contactForm").reset();
+            button.innerHTML = "Submit";
+            button.disabled = false;
+          });
+        } else {
+          Swal.fire("Oops", responseObject.msg, "error").then(() => {
+            document.getElementById("contactForm").reset();
+            button.innerHTML = "Submit";
+            button.disabled = false;
+          });
+        }
+      };
+
+      xhr.send(params);
     });
 })();
