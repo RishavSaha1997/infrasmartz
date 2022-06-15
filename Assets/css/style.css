@@ -153,12 +153,15 @@ header.sticky .nav-item li {
   letter-spacing: 0.4rem;
 }
 .banner-text .btn {
-  color: white;
   font-size: 22px;
   padding: 16px 24px;
 }
 .banner-text .btn:hover {
   background: #2ed3a2;
+}
+.banner-text .btn a{
+  color: white;
+  text-decoration: none;
 }
 
 #outer-text {
@@ -415,13 +418,16 @@ header.sticky .nav-item li {
   margin-left: 25px;
 }
 .footer #footer-one .rightBox .btn {
-  color: white;
   font-size: 22px;
   margin-left: 75px;
   padding: 16px 24px;
 }
 .footer #footer-one .rightBox .btn:hover {
   background: #2ed3a2;
+}
+.footer #footer-one .rightBox .btn a{
+  color: white;
+  text-decoration: none;
 }
 .footer .centerBox1,
 .footer .centerBox2,
